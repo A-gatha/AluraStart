@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(2, 3, 12);
+}
+
+.fotorosto {
+
+}
+
+.dprincipal {
+    background-image: url("./imagens/fotocara.png");
+    
+
+}
+
+.dorgnz {
+    flex: 1;
+    width: 35%;
+    align-items: center;
+    padding: 100px 0 100px 0 ;
+    
+}
+
+.dcombo {
+    text-align: center;
+    padding: 15px;
+}
+
+.dtcombo {
+    color:aliceblue;
+    text-align: center; 
+    padding: 15px;
+}
+
+.db12x {
+    color: aliceblue;
+    font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(16, 167, 255);
+  border-radius: 5px;
+  border: 0;
+  padding: 10px 60px;
+  cursor: pointer;
+  margin: 10px;
+}
+.divbts {
+    width: 80%;
+    margin-left: 55px;
+}
+
+.bt {
+    flex: 1;
+    width: 100%;
+}
+
+.dbass {
+    color: aliceblue;
+    font-size: 18px;
+  font-weight: 600;
+  background-color: black;
+  border-radius: 5px;
+  border: 2;
+  padding: 10px 60px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.tvr {
+    color: gray;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1; */
+}
+
+.dcomp2 {
+    position: absolute; left: 300px;
+}                                   
+
+.dletracomps2 {
+    position: absolute; left: 950px;  top: 125%;
+}
+
+.dassinatura {
+    position: absolute; top: 190%; left: 175px;
+}
+
+.dtelas {
+    position: absolute; top: 190%; left: 175px;
+}
+
+.dnot {
+    position: absolute; top: 400%; left: 175px;
+}
