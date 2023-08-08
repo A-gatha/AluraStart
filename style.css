@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(2, 3, 12);
+    background-color: rgb(0, 1, 17);
 }
 
 .fotorosto {
@@ -7,7 +7,10 @@ body{
 }
 
 .dprincipal {
-    background-image: url("./imagens/fotocara.png");
+    flex: 1;
+    background: url("./imagens/fotocara.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
     
 
 }
@@ -16,7 +19,7 @@ body{
     flex: 1;
     width: 35%;
     align-items: center;
-    padding: 100px 0 100px 0 ;
+    padding: 100px 0 100px 40px ;
     
 }
 
@@ -64,16 +67,33 @@ body{
   margin: 10px;
 }
 
-.tvr {
-    color: gray;
-    text-align: center;
+.dtvr {
+color: grey;
+text-align: center;
+
 }
 *{
     margin: 0;
     padding: 0;
-    /* flex-wrap: wrap;
+    flex-wrap: wrap;
     flex-direction: column;
-    flex: 1; */
+    flex: 1;
+}
+
+.dorgnz2 {
+    flex: 1;
+    width: 35%;
+    align-items: center;
+    padding: 200px 0 100px 850px ;
+}
+
+.dh1p2 {
+    color: aliceblue;
+    width: 110%;
+}
+
+.dpp2 {
+    color: gray;
 }
 
 .dcomp2 {
