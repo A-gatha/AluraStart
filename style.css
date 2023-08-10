@@ -92,8 +92,21 @@ text-align: center;
     width: 110%;
 }
 
+.dorgnz3 {
+    flex: 1;
+    width: 35%;
+    align-items: center;
+    padding: 200px 0 100px 850px ;
+}
+
 .dpp2 {
     color: gray;
+}
+
+.dpp3 {
+   color: gray; 
+   position: absolute;
+   top: 1400px;
 }
 
 .dcomp2 {
