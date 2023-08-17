@@ -93,10 +93,37 @@ text-align: center;
 }
 
 .dorgnz3 {
+    display: flex;
     flex: 1;
-    width: 35%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 300px;
+    /* width: 35%;
     align-items: center;
-    padding: 200px 0 100px 850px ;
+    padding: 200px 0 100px 850px ; */
+}
+
+.dimgtela {
+    flex: 1;
+    margin-right: 150px;
+}
+
+.dbt3 {
+    color: aliceblue;
+    font-size: 18px;
+  font-weight: 600;
+    background-color: rgb(16, 167, 255);
+    border-radius: 5px;
+  border: 0;
+  padding: 10px 60px;
+  cursor: pointer;
+  margin: 10px;
+    margin-left: 150px;
+    
+}
+
+.dtbt {
+   
 }
 
 .dpp2 {
@@ -105,8 +132,12 @@ text-align: center;
 
 .dpp3 {
    color: gray; 
-   position: absolute;
-   top: 1400px;
+   flex: 3;
+   margin-left: 150px;
+   margin-right: 100px;
+   margin-top: 100px;
+   /* position: absolute;
+   top: 1400px; */
 }
 
 .dcomp2 {
